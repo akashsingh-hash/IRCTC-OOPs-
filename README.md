@@ -112,7 +112,7 @@ Every class follows Single Responsibility Principle.
 
 🛠 How to Run
 1. Clone the Repository
-git clone [https://github.com/YOUR-USERNAME/book-my-train.git](https://github.com/akashsingh-hash/IRCTC-OOPs-)
+git clone [[https://github.com/akashsingh-hash/IRCTC-OOPs.git](https://github.com/akashsingh-hash/IRCTC-OOPs-)
 cd book-my-train
 
 2. Compile
