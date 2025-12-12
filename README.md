@@ -8,9 +8,13 @@ A clean, modular, OOP-based Java console project simulating IRCTC train booking.
 Book My Train is a fully functional IRCTC-style train booking console application built in Java using Object-Oriented Programming principles.
 It demonstrates:
 ✔ OOP
+
 ✔ Collections (ArrayList, HashMap)
+
 ✔ Console UI
+
 ✔ Modular Code Architecture
+
 ✔ In-memory Data Storage
 
 Perfect for Java beginners practicing DSA + OOP + project structuring.
