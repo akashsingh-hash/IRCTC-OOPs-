@@ -7,33 +7,40 @@ A clean, modular, OOP-based Java console project simulating IRCTC train booking.
 
 Book My Train is a fully functional IRCTC-style train booking console application built in Java using Object-Oriented Programming principles.
 It demonstrates:
+
 ✔ OOP
-
 ✔ Collections (ArrayList, HashMap)
-
 ✔ Console UI
-
 ✔ Modular Code Architecture
-
 ✔ In-memory Data Storage
 
 Perfect for Java beginners practicing DSA + OOP + project structuring.
+
 📌 Features
 👤 User Management
 
 Register new user accounts
+
 Login / Logout
 
 User session management
+
 🚆 Train Management
+
 List all available trains
+
 Search trains by source & destination
+
 View seat availability
 
 🎟 Ticket Operations
+
 Book ticket
+
 View all tickets booked by a user
+
 Cancel ticket + auto seat restoration
+
 Auto ticket-ID generation
 
 🧱 Project Architecture
@@ -51,29 +58,48 @@ Auto ticket-ID generation
 
 🧩 Tech Stack
 Language
+
 Java 8+ / Java 17 recommended
+
 Runtime / Environment
+
 Console Application (CMD / PowerShell / Terminal)
+
 No external frameworks
+
 Data Storage
 
 In-memory collections:
+
 ArrayList
+
 HashMap
+
 AtomicInteger (for auto ticket IDs)
 
 🧪 OOP Concepts Used
 ✔ Encapsulation
+
 All models (User, Train, Ticket) have private fields with getters/setters.
+
 ✔ Abstraction
+
 UserService and BookingService expose simple methods like:
+
 registerUser()
+
 loginUser()
+
 searchTrain()
+
 bookTicket()
 
+✔ Inheritance (if used)
+
+Console-related utilities can be extended (optional).
 
 ✔ Modularity
+
 Every class follows Single Responsibility Principle.
 
 
@@ -86,52 +112,89 @@ Every class follows Single Responsibility Principle.
 
 🛠 How to Run
 1. Clone the Repository
-git clone [https://github.com/akashsingh-hash/IRCTC-OOPs-.git](https://github.com/akashsingh-hash/IRCTC-OOPs-)
+git clone [https://github.com/YOUR-USERNAME/book-my-train.git](https://github.com/akashsingh-hash/IRCTC-OOPs-)
 cd book-my-train
+
 2. Compile
 javac IRCTCAPP.java
+
 3. Run
 java IRCTCAPP
 
 🔍 Key Classes (Explained)
-
 🧑‍💻 User
+
 username
+
 password
+
 full name
+
 contact
 
 🚆 Train
+
 trainId
+
 name
+
 source
+
 destination
+
 totalSeats
+
 availableSeats
 
 🎟 Ticket
+
 ticketId
+
 user
+
 train
+
 seats booked
+
 booking timestamp
 
 🔐 UserService
+
 register user
+
 login
+
 logout
+
 get current user
 
 📦 BookingService
+
 list all trains
+
 search trains
+
 book ticket
+
 cancel ticket
+
 list user tickets
 
 ✔️ Future Enhancements (Optional)
+
 File-based storage (saving users, trains, tickets)
+
+Payment simulation
+
+Admin panel
+
 Train sorting / filtering
+
+Train delay simulation
+
+PNR number generator
+
+Add colors & ASCII UI for better visuals
 
 🙌 Contributing
 
